@@ -1,0 +1,8 @@
+---
+Name: operatorhub-api
+---
+SilverStripe\Core\Injector\Injector:
+  OperatorHub\API\OperatorHubAPI:
+    factory: 'OperatorHub\API\OperatorHubAPIFactory'
+
+

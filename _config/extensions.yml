@@ -1,0 +1,12 @@
+---
+Name: operatorhub-extensions
+---
+App\Products\Model\Activity:
+  extensions:
+    operatorHub: OperatorHub\Extensions\ActivityExtension
+App\Products\Model\ActivityVariation:
+  extensions:
+    operatorHub: OperatorHub\Extensions\ActivityVariationExtension
+App\Booking\Model\Order:
+  extensions:
+    operatorHub: OperatorHub\Extensions\OrderExtension
